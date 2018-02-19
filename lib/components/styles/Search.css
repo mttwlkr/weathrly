@@ -1,0 +1,19 @@
+.searchDiv {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 10px;
+
+
+}
+
+.searchBar {
+  width: 90%;
+}
+
+.searchDiv button {
+  background-image: url('../../assets/magnifying-glass.svg');
+  width: 10%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
