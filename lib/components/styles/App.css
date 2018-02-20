@@ -1,14 +1,27 @@
+.App {
+  display: grid;
+  grid-template-rows: 520px 150px auto;
+  font-family: 'Hind Madurai', sans-serif;
+  text-transform: uppercase;
+}
+
 .gradientDiv {
   background: linear-gradient(#FD654B, #57A5A5);
   background-color: aqua;
-  display: flex;
+/*  display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;*/
   border: 1px solid green;
+  grid-row: 1 / 2;
+/*  height: 100%;*/
 }
 
 .appSevenHourDiv {
+  grid-row: 2 / 3;
+}
 
+.TenHourForecast {
+  grid-row: 3 / 4;
 }
 
 

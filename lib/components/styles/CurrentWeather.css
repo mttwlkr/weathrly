@@ -1,34 +1,60 @@
 .mainDiv {
   border: 1px solid coral;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  height: 300px;
-}
-
-.tempDiv,
-.windDiv,
-.humidityDiv,
-.locationDiv {
-/*  border: 1px solid coral;*/
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height: 480px;
+  justify-items: center;
   align-items: center;
-  height: 25%;
+  color: white;
+}
+
+h3 {
+  font-size: 14px;
 }
 
 .locationDiv {
-  justify-content: center;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  text-align: center;
 }
 
-.tempDiv,
-.windDiv,
-.humidityDiv {
-  justify-content: space-between;
+.temp {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.tempData {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.wind {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.windData {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+.humidity {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+.humidityData {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
 }
 
 .weatherIcon {
   height: 200px;
   width: 200px;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
 }
 
 

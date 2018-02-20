@@ -3,9 +3,11 @@
 .searchDiv {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 70%;
   margin: 10px;
-  border: 1px solid red;
+/*  border: 1px solid red;*/
+opacity: .7;
 }
 
 .searchBar {
@@ -14,7 +16,7 @@
 
 .searchDiv button {
   background-image: url('../../assets/magnifying-glass.svg');
-  width: 10%;
+  width: 3%;
   background-size: contain;
   background-repeat: no-repeat;
 }
