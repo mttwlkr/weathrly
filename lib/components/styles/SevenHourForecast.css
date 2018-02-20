@@ -1,9 +1,10 @@
 .sevenHourDiv {
   border: 1px solid green;
-  height: 150px;
+  height: 200px;
 }
 
 .sevenHourGrid {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr)
 }
 
