@@ -1,0 +1,9 @@
+.sevenHourDiv {
+  border: 1px solid green;
+  height: 150px;
+}
+
+.sevenHourGrid {
+  display: flex;
+}
+

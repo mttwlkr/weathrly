@@ -1,10 +1,11 @@
+/*Search Bar*/
+
 .searchDiv {
   display: flex;
   flex-direction: row;
   width: 70%;
   margin: 10px;
-
-
+  border: 1px solid red;
 }
 
 .searchBar {
@@ -17,3 +18,5 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+
