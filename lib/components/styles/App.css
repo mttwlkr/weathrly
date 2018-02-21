@@ -1,6 +1,6 @@
 .App {
   display: grid;
-  grid-template-rows: 520px 175px auto;
+  grid-template-rows: 537px 175px auto;
   font-family: 'Hind Madurai', sans-serif;
   text-transform: uppercase;
 }
