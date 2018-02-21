@@ -1,8 +1,17 @@
-.card {
+.tenDayCard,
+.sevenHourCard {
   border: 1px solid black;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 150px;
+}
+
+.sevenHourCard {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tenDayCard {
+  justify-content: space-around;
+  flex-direction: row;
 }
