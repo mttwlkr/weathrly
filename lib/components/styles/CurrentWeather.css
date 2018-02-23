@@ -54,6 +54,7 @@ h3 {
   width: 200px;
   grid-column: 2 / 3;
   grid-row: 3 / 4;
+  opacity: .5;
 }
 
 
