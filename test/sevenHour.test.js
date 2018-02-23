@@ -5,7 +5,7 @@ import {data} from '../lib/components/data';
 import {sevenHourCleaner} from '../lib/components/sevenHourCleaner';
 
 
-describe.only('Seven Hour Forecast', () => {
+describe.skip('Seven Hour Forecast', () => {
   let wrapper;
   let defaultData;
 
