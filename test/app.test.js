@@ -13,7 +13,7 @@ describe('App', () => {
     expect(wrapper).toBeDefined();
   });
 
-  it('should start with state of no city and no currentWeather', () => {
+  it('should start with initial state of no city and no currentWeather', () => {
     expect(wrapper.state().city).toEqual('')
     expect(wrapper.state().currentWeather).toEqual([])
   })
