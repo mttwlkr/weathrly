@@ -23,6 +23,7 @@
   background-color: transparent;
   background-size: contain;
   background-repeat: no-repeat;
+/*  background-position-y: 5px;*/
   border: none;
   margin: .5%;
 }

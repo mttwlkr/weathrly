@@ -89,6 +89,7 @@ h3 {
     width: 70%;
     margin: auto;
     height: 345px;
+    grid-template-columns: 30% 35% 30%;
   }
 
   h3 {
