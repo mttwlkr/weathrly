@@ -79,11 +79,7 @@ h3 {
 
 @media screen and (min-width: 605px) {
 
-  body {
-    background-image: url('https://images.pexels.com/photos/351448/pexels-photo-351448.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb');
-    background-size: 100%;
 
-  }
 
   .mainDiv {
     width: 70%;
