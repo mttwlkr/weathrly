@@ -21,20 +21,20 @@ describe.only('CurrentWeather', () => {
     expect(wrapper.find('.currentLocation').text()).toEqual('Louisville, KY')
   })
 
-  it('should display the current time', () => {
-    expect(wrapper.find('.currentTime').text()).toEqual('1 1  2 7 AM Local Time')
+  it('should display the current date', () => {
+    expect(wrapper.find('.currentDate').text()).toEqual('Dec 20')
   })
 
   it('should display the current temperature in Fahrenheit', () => {
     expect(wrapper.find('.tempData').text()).toEqual('46F')
   })
 
-  it('should display the current wind speed in MPH', () => {
-    expect(wrapper.find('.windData').text()).toEqual("1 MPH")
+  it('should display the high temperature for the day', () => {
+    expect(wrapper.find('.windData').text()).toEqual("51 ℉")
   })
 
-  it('should display the current humidity', () => {
-    expect(wrapper.find('.humidityData').text()).toEqual('65%')
+  it('should display the low temperature for the day', () => {
+    expect(wrapper.find('.humidityData').text()).toEqual('32 ℉')
   })
 
   // it('should pass an icon of the current conditions', () => {
