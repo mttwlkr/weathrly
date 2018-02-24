@@ -6,7 +6,7 @@
 }
 
 .gradientDiv {
-  background: linear-gradient(#FD654B, #57A5A5);
+  background: linear-gradient(#FD654B, #97C8CC);
   background-color: aqua;
   border: 1px solid green;
   grid-row: 1 / 2;
