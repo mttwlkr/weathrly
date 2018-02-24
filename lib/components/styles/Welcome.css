@@ -1,12 +1,22 @@
 .Welcome {
-    color: white;
-    opacity: .7;
-    text-align: center;
+  color: white;
+  opacity: .7;
+  text-align: center;
 }
 
 .Welcome h2 {
   font-size: 34px;
   border: 1px black solid;
+  border-radius: 73px;
   margin: 65px;
   padding: 18px;
 }
+
+  .gradientDiv {
+    margin: 0 auto;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    height: 100vh;
+    opacity: 0.9;
+    background: linear-gradient(#4d93da, #74dbdb);
+  }
