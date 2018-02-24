@@ -1,18 +1,22 @@
 .App {
   display: grid;
-  grid-template-rows: 621px 185px auto;
+  grid-template-rows: 500px 185px auto;
   font-family: 'Hind Madurai', sans-serif;
   text-transform: uppercase;
+  width: 100%;
+  margin: auto;
 }
 
 .gradientDiv {
   background: linear-gradient(#FD654B, #97C8CC);
   background-color: aqua;
+  width: 100%;
   border: 1px solid green;
   grid-row: 1 / 2;
 }
 
 .appSevenHourDiv {
+  width: 100%;
   grid-row: 2 / 3;
 }
 
@@ -20,6 +24,23 @@
   grid-row: 3 / 4;
 }
 
+@media screen and (min-width: 605px) {
+
+  .App {
+    grid-template-rows: 421px 185px auto;
+   width: 70%;
+  margin: auto;
+  }
+
+  .gradientDiv {
+    margin: 0 auto;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+
+
+}
 
 
 /*
