@@ -30,16 +30,15 @@ describe('CurrentWeather', () => {
   })
 
   it('should display the high temperature for the day', () => {
-    expect(wrapper.find('.windData').text()).toEqual("51 ℉")
+    expect(wrapper.find('.highData').text()).toEqual("51 ℉")
   })
 
   it('should display the low temperature for the day', () => {
-    expect(wrapper.find('.humidityData').text()).toEqual('32 ℉')
+    expect(wrapper.find('.lowData').text()).toEqual('32 ℉')
   })
 
-
-  // it('should pass an icon of the current conditions', () => {
-  //   expect(wrapper.find('.weatherIcon')).toEqual(icon_url)
-  // }) 
+  it('should display an image of condition', () => {
+    expect(wrapper.find('img')).toBeDefined()
+  })
 
 })

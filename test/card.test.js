@@ -27,13 +27,21 @@ describe('Day Card', () => {
     expect(wrapper).toBeDefined();
   })
 
-  // it('Should render without exploding', () => {
-  //   expect(
-  //     mount(
-  //       <Card props={cleanData} />
-  //     ).length
-  //   ).toEqual(1);
-  // })
+  it('should display the day of the week and date', () => {
+    expect(wrapper.find('.date').text()).toEqual('Tue | Feb 20')
+  })
+
+  it('should display the high temperature', () => {
+    expect(wrapper.find('.high').text()).toEqual('53 ℉')
+  })
+
+  it('should display the current temperature in Fahrenheit', () => {
+    expect(wrapper.find('.low').text()).toEqual('32 ℉')
+  })
+
+  it('should display an image of condition', () => {
+    expect(wrapper.find('img')).toBeDefined()
+  })
 })
 
 describe('Hour Card', () => {
