@@ -16,6 +16,10 @@ describe('Search', () => {
     expect(wrapper).toBeDefined();
   })
 
+  it('Should instantiate our good friend, Trie', () => {
+    
+  })
+
   
 })
 
