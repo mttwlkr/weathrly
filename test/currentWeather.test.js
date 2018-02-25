@@ -4,7 +4,7 @@ import CurrentWeather from '../lib/components/CurrentWeather'
 import {data} from '../lib/components/data';
 import {currentCleaner} from '../lib/components/currentCleaner';
 
-describe.only('CurrentWeather', () => {
+describe('CurrentWeather', () => {
   let defaultData;
   let wrapper;
 
@@ -36,6 +36,7 @@ describe.only('CurrentWeather', () => {
   it('should display the low temperature for the day', () => {
     expect(wrapper.find('.humidityData').text()).toEqual('32 ℉')
   })
+
 
   // it('should pass an icon of the current conditions', () => {
   //   expect(wrapper.find('.weatherIcon')).toEqual(icon_url)

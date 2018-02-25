@@ -7,7 +7,6 @@ import PropTypes from 'prop-types';
 
 describe('Search', () => {
   let wrapper;
-  let defaultData;
 
   beforeEach(() => {
     wrapper = shallow (<Search/>);
@@ -16,5 +15,7 @@ describe('Search', () => {
   it('Should exist', () => {
     expect(wrapper).toBeDefined();
   })
+
+  
 })
 

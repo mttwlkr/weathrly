@@ -99,6 +99,35 @@ describe('App', () => {
     expect(wrapper.find('TenDayForecast').length).toEqual(1)  
   })
 
+  it('should not render the Welcome page if a city is in local Storage or searched', () => {
+
+    wrapper.setState({city: 'Lexington, Kentucky', 
+    currentWeather: currentCleaner(data),
+    sevenHour: sevenHourCleaner(data),
+    tenDay: tenDayCleaner(data)
+    })
+
+    expect(wrapper.find('Welcome').length).toEqual(0)  
+  })
+
+  it('should only render the Welcome page if a city is not in local Storage', () => {
+
+    expect(wrapper.state().city).toEqual('')
+    expect(wrapper.state().currentWeather).toEqual([])
+
+    expect(wrapper.find('Welcome').length).toEqual(1)  
+  })
+
+  it('should throw an error if it receives bad data from the api', () => {
+
+    wrapper.setState({city: 'Lexington, Kentucky', 
+      error: true
+    })
+
+    expect(wrapper.find('p').length).toEqual(1)  
+  })
+
+
 
 
   // it('should retrieve data from local storage on mount', () => {
