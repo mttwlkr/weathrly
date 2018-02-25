@@ -6,12 +6,12 @@
   width: 100%;
   margin: auto;
   height: 100%;
-  background-color: #7CC6AE
+/*  background-color: #7CC6AE*/
 }
 
 .gradientDiv {
-  background: linear-gradient(#FD654B, #7CC6AE);
-  background-color: aqua;
+/*  background: linear-gradient(#FD654B, #7CC6AE);*/
+ /* background-color: aqua;*/
   width: 100%;
 /*  border: 1px solid green;*/
   grid-row: 1 / 2;
@@ -26,10 +26,10 @@
   grid-row: 3 / 4;
 }
 
-@media screen and (min-width: 605px) {
+@media screen and (min-width: 805px) {
 
   .App {
-    grid-template-rows: 421px 185px auto;
+    grid-template-rows: 451px 227px auto;
    width: 70%;
   margin: auto;
   }
@@ -45,7 +45,7 @@
 
   body {
 /*    height: 100%;*/
-    background-image: url('https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');
+    background-image: url('https://slack-imgs.com/?c=1&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1471898988302-3d79dfaad25d%3Fixlib%3Drb-0.3.5%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26s%3Ddd296e0574dc9ad530f54d05943aec0c');
     background-size: cover;
     background-repeat: no-repeat;
 
