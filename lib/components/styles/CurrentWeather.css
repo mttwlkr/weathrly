@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  height: 400px;
+  height: 340px;
   justify-items: center;
   align-items: center;
   color: white;
@@ -21,7 +21,7 @@ h3 {
   text-align: center;
 }
 
-.temp {
+.tempCurr {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
 }
@@ -31,7 +31,7 @@ h3 {
   grid-row: 2 / 3;
 }
 
-.high {
+.highCurr {
   grid-column: 1 / 2;
   grid-row: 3 / 4;
 }
@@ -41,7 +41,7 @@ h3 {
   grid-row: 3 / 4;
 }
 
-.low {
+.lowCurr {
   grid-column: 1 / 2;
   grid-row: 4 / 5;
 }
@@ -68,10 +68,6 @@ h3 {
 
 @media screen and (min-width: 805px) {
 
-  body {
-    background-color: magenta;
-  }
-
   h3 {
     font-size: 25px;
   }
@@ -79,7 +75,7 @@ h3 {
   .mainDiv {
     width: 70%;
     margin: auto;
-    height: 345px;
+    height: 320px;
     grid-template-columns: 30% 35% 30%;
   }
 
