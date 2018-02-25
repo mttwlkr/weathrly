@@ -54,4 +54,22 @@ describe('Hour Card', () => {
     expect(wrapper).toBeDefined();
   })
 
+  it('Should render a card without exploding', () => {
+    expect(mount(<Card hour={hour} />).length).toEqual(1);
+  })
+
+  it('should render child elements', ()=> {
+    expect(wrapper.find('h3').length).toEqual(1)
+    expect(wrapper.find('h2').length).toEqual(1)
+  })
+
+  it('should pass props through to elements', ()=> {
+    expect(wrapper.find('h3').text()).toEqual('12:00 PM')
+    expect(wrapper.find('h2').text()).toEqual('47 ℉')
+  })
+
+  it('should display an image', () => {
+   expect(wrapper.find('img')).toBeDefined()
+  })
+
 })
