@@ -6,17 +6,24 @@ import {tenDayCleaner} from '../lib/components/tenDayCleaner';
 import {data} from '../lib/components/data';
 import PropTypes from 'prop-types';
 
-describe('Card', () => {
+describe('Day Card', () => {
+
   let wrapper;
-  let sevenHourCleanData;
-  let tenDayCleanData;
+
+  const day = { condition: 'Clear',
+    date: '20',
+    dayOfWeek: 'Tue',
+    highTemp: '53',
+    icon_url: 'http://icons.wxug.com/i/c/k/cloudy.gif',
+    lowTemp: '32', 
+    monthName: 'Feb'
+  }
 
   beforeEach(() => {
+    wrapper = shallow(<Card day={day} />)
   })
 
   it('Should exist', () => {
-    sevenHourCleanData = sevenHourCleaner(data)
-    wrapper = mount(<Card props={sevenHourCleanData} />); 
     expect(wrapper).toBeDefined();
   })
 
@@ -27,20 +34,24 @@ describe('Card', () => {
   //     ).length
   //   ).toEqual(1);
   // })
+})
 
-  it('Should', () => {
-    sevenHourCleanData = sevenHourCleaner(data)
-    wrapper = mount(<Card props={sevenHourCleanData} />); 
+describe('Hour Card', () => {
+
+  let wrapper;
+
+  const hour = { hour: '12:00 PM',
+    temp: '47',
+    condition: 'Partly Cloudy',
+    icon_url: 'http://icons.wxug.com/i/c/k/partlycloudy.gif' 
+  }
+
+  beforeEach(() => {
+    wrapper = shallow(<Card hour={hour} />)
   })
 
-  it('Should', () => {
-    tenDayCleanData = tenDayCleaner(data)
-    wrapper = mount(<Card props={tenDayCleanData} />); 
-    console.log(wrapper.props().tenDayArr)
-
+  it('Should exist', () => {
+    expect(wrapper).toBeDefined();
   })
-
-
-
 
 })

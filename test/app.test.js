@@ -126,29 +126,4 @@ describe('App', () => {
 
     expect(wrapper.find('p').length).toEqual(1)  
   })
-
-
-
-
-  // it('should retrieve data from local storage on mount', () => {
-  //   wrapper.instance().getWeather = jest.fn()
-  //   wrapper.instance().getCity = jest.fn()
-    
-  //   const city = "Denver, CO";
-    
-  //   localStorage.setItem('City', city);
-
-  //   wrapper = mount(<App />);
-
-  //   expect(wrapper.instance().componentDidMount()).toEqual(city) 
-  // })
-
-
-
-  // it('should render search bar, current weather, seven hour and ten day', () => {
-    // expect(wrapper.find('Search').length).toEqual(1);
-    // expect(wrapper.find('CurrentWeather').length).toEqual(1);
-    // expect(wrapper.find('SevenHourForecast').length).toEqual(1);
-    // expect(wrapper.find('TenDayForecast').length).toEqual(1);
-  // })
 })
