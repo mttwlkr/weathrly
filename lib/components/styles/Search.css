@@ -27,6 +27,13 @@
   margin: .5%;
 }
 
+.invalidCityWarning {
+  text-transform: none;
+  text-align: center;
+  background: red;
+  color: #fef9e6;
+} 
+
 @media screen and (min-width: 805px) {
 
   .searchDiv {

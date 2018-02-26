@@ -11,6 +11,7 @@
 .gradientDiv {
   width: 100%;
   grid-row: 1 / 2;
+  background: linear-gradient(#4d93da, #74dbdb);
 }
 
 .appSevenHourDiv {
@@ -26,8 +27,8 @@
 
   .App {
     grid-template-rows: 400px 238px auto;
-   width: 70%;
-  margin: auto;
+    width: 70%;
+    margin: auto;
   }
 
   .gradientDiv {
@@ -36,16 +37,14 @@
     grid-row: 1 / 2;
     height: 400px;
     opacity: 0.7;
-    background: linear-gradient(#4d93da, #74dbdb);
   }
 
   body {
     background-image: url('https://slack-imgs.com/?c=1&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1471898988302-3d79dfaad25d%3Fixlib%3Drb-0.3.5%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26s%3Ddd296e0574dc9ad530f54d05943aec0c');
     background-size: cover;
     background-repeat: no-repeat;
-
   }
-  }
+}
 
 
 
@@ -60,9 +59,6 @@ Color Pallet
 #F1A161;
 #A08E78;
 #E8D5AF;
-
-Colors' I ripped
-
 
 */
 
