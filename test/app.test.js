@@ -110,7 +110,7 @@ describe('App', () => {
     expect(wrapper.find('Welcome').length).toEqual(0)  
   })
 
-  it('should only render the Welcome page if a city is not in local Storage', () => {
+  it('should render the Welcome page if a city is not in local Storage', () => {
 
     expect(wrapper.state().city).toEqual('')
     expect(wrapper.state().currentWeather).toEqual([])
