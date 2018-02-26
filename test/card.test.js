@@ -27,6 +27,10 @@ describe('Day Card', () => {
     expect(wrapper).toBeDefined();
   })
 
+  it('should render child elements', ()=> {
+    expect(wrapper.find('h3').length).toEqual(3)
+  })
+
   it('should display the day of the week and date', () => {
     expect(wrapper.find('.date').text()).toEqual('Tue | Feb 20')
   })
