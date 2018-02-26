@@ -67,13 +67,12 @@ describe('Hour Card', () => {
   })
 
   it('should render child elements', ()=> {
-    expect(wrapper.find('h3').length).toEqual(1)
-    expect(wrapper.find('h2').length).toEqual(1)
+    expect(wrapper.find('h3').length).toEqual(2)
   })
 
   it('should pass props through to elements', ()=> {
-    expect(wrapper.find('h3').text()).toEqual('12:00 PM')
-    expect(wrapper.find('h2').text()).toEqual('47 ℉')
+    expect(wrapper.find('.sevenHour').text()).toEqual('12:00 PM')
+    expect(wrapper.find('.sevenTemp').text()).toEqual('47 ℉')
   })
 
   it('should display an image', () => {

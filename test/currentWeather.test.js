@@ -26,7 +26,7 @@ describe('CurrentWeather', () => {
   })
 
   it('should display the current temperature in Fahrenheit', () => {
-    expect(wrapper.find('.tempData').text()).toEqual('46F')
+    expect(wrapper.find('.tempData').text()).toEqual('46 ℉')
   })
 
   it('should display the high temperature for the day', () => {

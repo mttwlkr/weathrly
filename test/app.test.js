@@ -45,7 +45,7 @@ describe('App', () => {
     })
 
     expect(wrapper.state().currentWeather.conditions).toEqual("Mostly Cloudy");
-    expect(wrapper.state().currentWeather.temp).toEqual(46);
+    expect(wrapper.state().currentWeather.temp).toEqual('46');
     expect(wrapper.state().currentWeather.low).toEqual('32');
     expect(wrapper.state().currentWeather.high).toEqual('51');
     expect(wrapper.state().currentWeather.day).toEqual(true);
