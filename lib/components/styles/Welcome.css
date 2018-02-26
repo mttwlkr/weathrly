@@ -1,7 +1,14 @@
+body {
+  background-image: url('https://slack-imgs.com/?c=1&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1471898988302-3d79dfaad25d%3Fixlib%3Drb-0.3.5%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26s%3Ddd296e0574dc9ad530f54d05943aec0c');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .Welcome {
   color: white;
-  opacity: .7;
+  opacity: .6;
   text-align: center;
+
 }
 
 .Welcome h2 {
@@ -12,14 +19,10 @@
   padding: 18px;
 }
 
-  .welcomeDiv {
-    margin: 0 auto;
-    width: 100%;
-    height: 100vh;
-    opacity: 0.9;
-    background: linear-gradient(#4d93da, #74dbdb);
-  }
-
-  @media screen and (min-width: 805px) {
-
-  }
+.welcomeDiv {
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.9;
+  background: linear-gradient(#2d3851, #333847);
+}
