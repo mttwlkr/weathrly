@@ -29,6 +29,7 @@
   margin: 0 10px;
   padding: 10px 0;
   width: 80%;
+  opacity: .8;
 }
 
 .tenDayCard {
@@ -98,6 +99,7 @@
     grid-template-rows: 20% 50% 15% 15%;
     grid-template-columns: 100%;
     border: 1px solid black;
+    margin-bottom: 40%;
   }
   
   .tenDayCard img {
