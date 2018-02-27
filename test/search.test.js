@@ -1,7 +1,7 @@
 import React from 'react';
 import {shallow, mount} from 'enzyme';
 import Search from '../lib/components/Search';
-import {data} from '../lib/components/data';
+import {data} from '../lib/helpers/data';
 import PropTypes from 'prop-types';
 
 describe('Search', () => {
@@ -16,7 +16,7 @@ describe('Search', () => {
   })
 
   it('should start with initial state of no city and no suggestions', () => {
-    expect(wrapper.state().city).toEqual(undefined)
+    expect(wrapper.state().city).toEqual('')
     expect(wrapper.state().suggestions).toEqual([])
   })
 

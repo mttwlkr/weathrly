@@ -1,8 +1,8 @@
 import React from 'react';
 import {shallow, mount} from 'enzyme';
 import CurrentWeather from '../lib/components/CurrentWeather'
-import {data} from '../lib/components/data';
-import {currentCleaner} from '../lib/components/currentCleaner';
+import {data} from '../lib/helpers/data';
+import {currentCleaner} from '../lib/helpers/currentCleaner';
 
 describe('CurrentWeather', () => {
   let defaultData;
