@@ -1,10 +1,10 @@
 import React from 'react';
 import {shallow, mount} from 'enzyme';
 import App from '../lib/components/App';
-import {data} from '../lib/components/data';
-import {currentCleaner} from '../lib/components/currentCleaner';
-import {sevenHourCleaner} from '../lib/components/sevenHourCleaner';
-import {tenDayCleaner} from '../lib/components/tenDayCleaner';
+import {data} from '../lib/helpers/data';
+import {currentCleaner} from '../lib/helpers/currentCleaner';
+import {sevenHourCleaner} from '../lib/helpers/sevenHourCleaner';
+import {tenDayCleaner} from '../lib/helpers/tenDayCleaner';
 
 const currentCleanData = currentCleaner(data)
 const sevenHourCleanData = sevenHourCleaner(data)

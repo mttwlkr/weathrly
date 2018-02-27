@@ -1,9 +1,9 @@
 import React from 'react';
 import {shallow, mount} from 'enzyme';
-import Card from '../lib/components/Card';
-import {sevenHourCleaner} from '../lib/components/sevenHourCleaner';
-import {tenDayCleaner} from '../lib/components/tenDayCleaner';
-import {data} from '../lib/components/data';
+import Card from '../lib/components/Card'; 
+import {sevenHourCleaner} from '../lib/helpers/sevenHourCleaner';
+import {tenDayCleaner} from '../lib/helpers/tenDayCleaner';
+import {data} from '../lib/helpers/data';
 import PropTypes from 'prop-types';
 
 describe('Day Card', () => {
