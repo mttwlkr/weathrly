@@ -1,8 +1,8 @@
 import React from 'react';
 import {shallow, mount} from 'enzyme';
 import SevenHourForecast from '../lib/components/SevenHourForecast';
-import {data} from '../lib/components/data';
-import {sevenHourCleaner} from '../lib/components/sevenHourCleaner';
+import {data} from '../lib/helpers/data';
+import {sevenHourCleaner} from '../lib/helpers/sevenHourCleaner';
 
 describe('Seven Hour Forecast', () => {
   let wrapper;
