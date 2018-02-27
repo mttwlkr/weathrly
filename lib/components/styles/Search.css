@@ -2,10 +2,13 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 5% 7%;
+  margin: 3% 10%;
   opacity: .7;
   height: 6vh;
+  width: 80%;
   box-shadow: 2px 1px 10px 5px #414b63;
+  position: absolute;
+  z-index: 1;
 }
 
 .searchBar {
@@ -37,8 +40,11 @@
 @media screen and (min-width: 805px) {
 
   .searchDiv {
-    margin: 2% 20%;
-      height: 5vh;
+    height: 5vh;
+    width: 45%;
+    margin: 0;
+    top: 2%;
+    left: 27%;
   }
 
 }

@@ -27,7 +27,6 @@ describe('App', () => {
     expect(wrapper.state().error).toEqual(false)
   })
 
-  // This doesn't necessarily have information coming from the search bar...
   it('should get city info from search bar on click', () => {
     wrapper.instance().getWeather = jest.fn()
 

@@ -8,7 +8,7 @@ body {
   color: white;
   opacity: .6;
   text-align: center;
-
+  margin-top: 16%;
 }
 
 .Welcome h2 {
@@ -24,5 +24,13 @@ body {
   width: 100%;
   height: 100vh;
   opacity: 0.9;
+  position: absolute;
+  z-index: -1;
   background: linear-gradient(#2d3851, #333847);
+}
+
+@media screen and (min-width: 805px) {
+.welcomeDiv {
+  width: 68%;
+  }
 }
