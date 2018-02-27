@@ -1,5 +1,5 @@
 .sevenHourDiv {
-  height: 280px;
+  height: 250px;
   width: 100%;
   margin: auto;
 }
@@ -13,7 +13,7 @@
 
   .sevenHourDiv {
 
-    height: 100%;
+    height: 72%;
     
   }
 }
