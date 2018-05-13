@@ -29,7 +29,7 @@ body {
   background: #333847;
 }
 
-@media screen and (min-width: 805px) {
+@media screen and (min-width: 950px) {
 
   .App {
     grid-template-rows: 400px 238px auto;
