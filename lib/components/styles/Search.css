@@ -35,7 +35,8 @@
   text-align: center;
   background: red;
   color: #fef9e6;
-} 
+  margin: 1em 0em 0em 0em;
+}
 
 @media screen and (min-width: 805px) {
 
