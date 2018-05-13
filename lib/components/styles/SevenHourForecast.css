@@ -9,7 +9,7 @@
   grid-template-columns: repeat(7, 1fr);
 }
 
-@media screen and (min-width: 805px) {
+@media screen and (min-width: 950px) {
 
   .sevenHourDiv {
 

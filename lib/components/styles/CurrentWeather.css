@@ -8,6 +8,7 @@
   align-items: center;
   color: white;
   opacity: .8;
+  margin-top: 2em;
 }
 
 h3 {
@@ -63,6 +64,7 @@ h3 {
   grid-row: 5 / 6;
   font-size: 12px;
   text-align: center;
+  margin: 1em 2em;
 }
 
 .weatherSummary,
@@ -80,7 +82,7 @@ h3 {
 }
 
 
-@media screen and (min-width: 805px) {
+@media screen and (min-width: 950px) {
 
   h3 {
     font-size: 25px;

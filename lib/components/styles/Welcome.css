@@ -29,7 +29,7 @@ body {
   background: linear-gradient(#2d3851, #333847);
 }
 
-@media screen and (min-width: 805px) {
+@media screen and (min-width: 950px) {
 .welcomeDiv {
   width: 68%;
   }

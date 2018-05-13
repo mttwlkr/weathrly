@@ -1,4 +1,4 @@
-@media screen and (min-width: 805px) {
+@media screen and (min-width: 950px) {
   .tenDayGrid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
