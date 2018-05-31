@@ -5,6 +5,9 @@
 
 #### Weathrly is the final paired project of module 2 at Turing. This is was our first React application. The goal of this project was to interact with the Weather Underground API and gain experience working with ReactJS, asynchronous JavaScript and managing the state of an application. We displayed the current, seven-hour and ten-day forecast for locations across the globe.
 
+## Live Site
+#### http://mttwlkr-weathrly.surge.sh/
+
 ## Installation
 
 #### Clone down the repo
